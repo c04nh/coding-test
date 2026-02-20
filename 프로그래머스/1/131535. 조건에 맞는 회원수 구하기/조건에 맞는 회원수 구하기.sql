@@ -1,0 +1,2 @@
+-- 코드를 입력하세요
+SELECT COUNT(*) as "USERS" FROM USER_INFO WHERE (AGE >= 20 and AGE <= 29) AND TO_CHAR(JOINED, 'YYYY') = 2021;
