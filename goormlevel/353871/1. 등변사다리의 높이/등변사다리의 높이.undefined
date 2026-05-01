@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+# UTF-8 encoding when using korean
+K, D1, D2 = map(int, input().split())
+W = abs(D1-D2)/2
+print (int(4*(K*K - W*W)))
