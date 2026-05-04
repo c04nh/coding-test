@@ -1,0 +1,15 @@
+X, Y = map(int, input().split())
+
+if X == 0 or Y == 0:
+	print(0)
+else:
+	if X > 0:
+		if Y > 0:
+			print(1)
+		else:
+			print(4)
+	elif X < 0:
+		if Y > 0:
+			print(2)
+		else:
+			print(3)
