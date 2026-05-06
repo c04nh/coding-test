@@ -1,0 +1,7 @@
+import math
+
+W, H = map(int, input().split())
+a = W*W+H*H
+b = (W+H)**2
+
+print(int(abs(a-b)))
