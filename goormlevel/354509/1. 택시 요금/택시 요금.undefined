@@ -1,0 +1,10 @@
+A, B, C, D = map(int, input().split())
+
+answer = 0
+
+if C < D:
+	answer += C*A + (D-C)*B
+else:
+	answer += A*D
+
+print(answer)
