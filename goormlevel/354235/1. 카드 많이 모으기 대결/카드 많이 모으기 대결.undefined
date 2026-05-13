@@ -1,0 +1,8 @@
+G, B = map(int, input().split())
+
+if G > B:
+	print("Goorm")
+elif G < B:
+	print("Baram")
+else:
+	print("Tie")
