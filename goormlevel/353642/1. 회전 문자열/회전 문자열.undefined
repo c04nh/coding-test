@@ -1,0 +1,16 @@
+S = input()
+answer = ''
+
+for c in S:
+	if c == '0':
+		answer = '0' + answer
+	elif c == '1':
+		answer = '1' + answer
+	elif c == '6':
+		answer = '9' + answer
+	elif c == '8':
+		answer = '8' + answer
+	elif c == '9':
+		answer = '6' + answer
+
+print(answer)
