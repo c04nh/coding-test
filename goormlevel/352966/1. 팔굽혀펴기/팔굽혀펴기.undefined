@@ -1,0 +1,3 @@
+x, S = map(int, input().split())
+
+print(x*S)
