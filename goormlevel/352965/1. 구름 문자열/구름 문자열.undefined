@@ -1,0 +1,10 @@
+K = int(input())
+
+if K % 5 == 0:
+	print('m')
+elif K % 5 == 1:
+	print('g')
+elif K % 5 == 2 or K % 5 == 3:
+	print('o')
+else:
+	print('r')
