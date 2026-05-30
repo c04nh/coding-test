@@ -1,0 +1,6 @@
+import math
+
+S = int(input())
+w = int(math.sqrt(S))
+
+print(4*w)
