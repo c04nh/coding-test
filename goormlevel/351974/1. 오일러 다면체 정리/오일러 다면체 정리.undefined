@@ -1,0 +1,6 @@
+T = int(input())
+
+for i in range(T):
+	v, e = map(int, input().split())
+	f = 2 - v + e
+	print(f)
