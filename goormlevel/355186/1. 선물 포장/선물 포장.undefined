@@ -1,0 +1,6 @@
+R, C, H = map(int, input().split())
+
+num1 = (R+C)**2 + H**2
+num2 = (R+H)**2 + C**2
+num3 = (C+H)**2 + R**2
+print(min(min(num1, num2), num3))
