@@ -1,0 +1,17 @@
+from itertools import combinations
+
+def solution(nums):
+    answer = 0
+
+    for i in combinations(nums, 3):
+        num = sum(i)
+        cnt = 0
+        for j in range(2, int(num ** 0.5) + 1):
+            
+            if num % j == 0: 
+                cnt += 1
+                break
+        if cnt == 0:
+            answer += 1
+
+    return answer
